@@ -1,18 +1,6 @@
 html{
     font-size: 16px !important;
 }
-.soccer-navbar{
-    background-color:#00601d;
-}
-
-.nav-link--soccer-site{
-    color: #FFFFFF;
-}
-
-.nav-link--soccer-site:hover{
-    color: rgb(0, 248, 12);
-}
-
 .nav-link--container{
     display: block !important;
     width: 100%;
@@ -23,5 +11,58 @@ html{
 }
 
 .jumbotron{
-    margin-top: 5.45rem;
+    margin-top: 5.4rem;
+    border: none;
+    border-radius: 0;
+}
+
+/*Tema default*/
+.soccer-navbar--default{
+    background-color:rgb(0, 96, 29);
+}
+
+.nav-link--soccer-site--default{
+    color: #FFFFFF;
+}
+
+.nav-link--soccer-site--default:hover{
+    color: rgb(64, 255, 121);
+}
+
+.jumbotron--default{
+    background-color:rgba(0, 96, 29, 0.3);
+}
+
+/*Tema 1*/
+.soccer-navbar--one{
+    background-color:rgb(96, 0, 29);
+}
+
+.nav-link--soccer-site--one{
+    color: #FFFFFF;
+}
+
+.nav-link--soccer-site--one:hover{
+    color: rgb(255, 64, 121);
+}
+
+.jumbotron--one{
+    background-color:rgba(96, 0, 29, 0.3);
+}
+
+/*Tema 2*/
+.soccer-navbar--two{
+    background-color:rgb(0, 29, 96);
+}
+
+.nav-link--soccer-site--two{
+    color: #FFFFFF;
+}
+
+.nav-link--soccer-site--two:hover{
+    color: rgb(64, 121, 255);
+}
+
+.jumbotron--two{
+    background-color:rgba(0, 29, 96, 0.3);
 }
