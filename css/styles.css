@@ -1,4 +1,27 @@
+html{
+    font-size: 16px !important;
+}
 .soccer-navbar{
-    background-image: url("../img/grass.jpg") !important;
+    background-color:#00601d;
+}
+
+.nav-link--soccer-site{
+    color: #FFFFFF;
+}
+
+.nav-link--soccer-site:hover{
+    color: rgb(0, 248, 12);
+}
+
+.nav-link--container{
+    display: block !important;
     width: 100%;
+}
+
+.nav-link--list{
+    float: right;
+}
+
+.jumbotron{
+    margin-top: 5.45rem;
 }
