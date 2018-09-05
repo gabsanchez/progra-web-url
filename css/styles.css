@@ -17,7 +17,7 @@ html{
 }
 
 /*Tema default*/
-.soccer-navbar--default{
+.soccer-nav--default{
     background-color:rgb(0, 96, 29);
 }
 
@@ -34,7 +34,7 @@ html{
 }
 
 /*Tema 1*/
-.soccer-navbar--one{
+.soccer-nav--one{
     background-color:rgb(96, 0, 29);
 }
 
@@ -51,7 +51,7 @@ html{
 }
 
 /*Tema 2*/
-.soccer-navbar--two{
+.soccer-nav--two{
     background-color:rgb(0, 29, 96);
 }
 

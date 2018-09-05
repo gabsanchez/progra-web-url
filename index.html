@@ -5,10 +5,10 @@
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
-
-		<script type="text/javascript" src="js/app.js"></script>
+		
 	</head>
 	<body>
+		<script src="js/app.js"></script>
 		<div class="row">
 			<div class="col-sm-4">
 			  	<nav class="navbar navbar-expand-sm fixed-top" id="soccer-nav">
@@ -21,13 +21,13 @@
 					<div class="collapse nav-link--container" id="collapsibleNavbar">
 				  		<ul class="navbar-nav nav-link--list">
 							<li class="nav-item">
-					  			<a class="nav-link" id="link1" href="" onclick="cambiarTema(1)">Tema 1</a>
+					  			<button type="link" class="btn btn-link nav-link" id="link1" onclick="cambiarTema(1)">Tema 1</button>
 							</li>
 							<li class="nav-item">
-					  			<a class="nav-link" id="link2" href="" onclick="cambiarTema(2)">Tema 2</a>
+								<button type="link" class="btn btn-link nav-link" id="link2" onclick="cambiarTema(2)">Tema 2</button>
 							</li>
 							<li class="nav-item">
-					  			<a class="nav-link" id="link3" href="" onclick="cambiarTema(0)">Default</a>
+								<button type="link" class="btn btn-link nav-link" id="link3" onclick="cambiarTema(0)">Default</button>
 							</li>
 				  		</ul>
 					</div>
